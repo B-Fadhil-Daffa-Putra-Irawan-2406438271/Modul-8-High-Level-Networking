@@ -1,8 +1,6 @@
-// Isi dari proto/services.proto
 syntax = "proto3";
 package services;
 
-// Service for processing payments
 service PaymentService {
     rpc ProcessPayment(PaymentRequest) returns (PaymentResponse);
 }
